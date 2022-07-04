@@ -67,11 +67,6 @@ body {
     padding: 60px 0;
 }
 
-.section_img {
-  width: 45%;
-  align-self: flex-start;
-}
-
 img {
     max-width: 100%;
 }
@@ -84,7 +79,11 @@ img {
 
 
 
-.flex_item{
-    width:45%;
+.flex_item {
+    width:100%;
     align-self: flex-start;    
+}
+
+.flex_item + .flex_item {
+    margin-left: 4em;
 }
