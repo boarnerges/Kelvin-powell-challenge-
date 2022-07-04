@@ -5,87 +5,86 @@
 }
 
 body {
-    padding: 0;
-  margin: 0;
+  margin: 0 auto;
   font-family: "Roboto", sans-serif;
-  /* font-size: 1.3rem; */
+  font-size: 1.3rem; 
+  width: 50%;
+  border: 2px solid white; 
+  background: black; 
 }
 
 .container {
     width: 70%;
     margin: 0 auto;
     max-width: 1128px;
+    
 }
 
-header {
+.head {
+    padding: 100px 0;
     background: #F3EED9;
+    text-align: center;
+    font-weight:bold;
 }
 
-.article_2 {
+.section_one{
+    padding: 50px 0;
+    color:black;
+    background: white;
+}
+.head_text_title {
+    font-size: 18px;
+    font-family: Roboto Light;
+    color: black;
+    font-weight:normal;
+    letter-spacing: 0.2em;    
+}
+
+.title{
+    color:#F3EED9;
+}
+.head_text_body{
+    font-family: Playfair Display Black ;
+    font-size: 60px;
+    color: #824936;
+}
+
+.section_one_title{
+    font-family:Playfair Display Black;
+    font-size: 36px;
+    color:#824936;
+    text-align: center;
+}
+
+.section_flex {
+    display:flex;
+    justify-content: space-between;
+}
+
+.section_two {
     background:#222C2A;
     color: white;
-    display:flex;
+    padding: 60px 0;
 }
 
-.article_3 {
-    background: #824936;
-    color: white;
-}
-
-.layout_1{
-    width: 60%;
-    text-align: center;
-    color: #824936;
-    padding: 0.5rem;
-    font-size: 30px;
-    font-family: Playfair Display Black;
-}
-
-.layout_1 > h5{
-    font-size: 18px;
-    font-family:Roboto Light;
-}
-
-.article_1 {
-    Display:flex;
-    justify-content: space-between;
-    font-size: 21px;
-}
-
-.layout_3{
-    font-size: 21px;
-    display:flex;
-    justify-content: space-between;
-    
-
-}
-
-.layout_4{  
-    
-    display:flex;
-    justify-content: space-between;
-   
-}
-
-.left{
-    width:40%;
-}
-
-.right{
-    width: 50%;
+.section_img {
+  width: 45%;
+  align-self: flex-start;
 }
 
 img {
-    width:80%;
-    margin: 1rem;
-
+    max-width: 100%;
 }
 
-.right_img{
-
+.section_three {
+    background: #824936;
+    color: white;
+    padding: 60px 0;
 }
 
-.left_img{
-    width:100%;
 
+
+.flex_item{
+    width:45%;
+    align-self: flex-start;    
 }
