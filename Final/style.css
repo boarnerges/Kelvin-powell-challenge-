@@ -7,8 +7,7 @@
 
 body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.3rem;
+    font-family: Montserrat;
   }
 
   img {
@@ -24,7 +23,7 @@ body {
     text-align: center;
   }
 .nav__item {
-    margin: 10px 0 ;
+    margin: 30px 0 ;
 
 }
 
@@ -32,6 +31,7 @@ body {
     visibility: hidden;
     height: 0;
     position: absolute;
+    margin-top: 5rem;
   }
   
   .nav--visible {
@@ -48,7 +48,7 @@ body {
     padding: 0em;
     border-radius: 50%;
     background: #072a2d;
-    color: white;
+    color:  #EAEBEC;
     transition: opacity 250ms ease;
   
     position: absolute;
@@ -118,6 +118,7 @@ body {
     color: #fff;
     font-family:Oswald;
     font-weight: 900;
+    font-size: 24px;
     background-color: #A59678;
     padding: 0.75em 2em;
     border-radius: 100px;
@@ -131,24 +132,115 @@ body {
   .hero{
     background: #3B4050;
     padding: 100px 0;
+    color: #fff;
   }
+.hero__title{
+    font-family: Oswald;
+    font-weight:bold;
+    font-size: 90px;
+}
 
+.hero_text {
+    font-weight: regular;
+    font-family: Montserrat;
+    font-size: 24px;
+    color:#ffffff;
+}
   .section_two {
-    background:#A59678;
+    background: #fbfbfb;
     padding: 100px 0;
+    text-align:center;  
+    font-size: 18px 
+    
   }
+.section_two_header {
+    font-family:Oswald;
+    font-weight: bold;
+    font-size: 60px;
+    color: #A59678;
+}
+
+.column{
+    margin: 0 auto;
+    padding: 1rem 5rem;
+   
+}
 
   .section_three{
     padding: 100px 0;
   }
-  .section_four {
-    background: #2E323F;
-    padding: 100px 0;
+
+  .main_title {
+    font-family:Oswald;
+    font-weight: Bold;
+    font-size: 36px;
+    color:#A59678;
   }
 
-  .container {
+  .main{
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 21px;
+  }
+
+  .sidebar_item{
+    background:#3B4050;
+    padding: 5rem ;
+    margin: 2rem 0;
+    text-align:center; 
+    color: #fff; 
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 18px
+  }
+  .sidebar_title{
+    font-family: Oswald;
+    font-weight: Bold;
+    font-size: 30px;
+  }
+   .container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+  }
+
+  .section_four {
+    background: #2E323F;
+    padding: 100px 0;
+    color:#6F737F;
+    
+  }
+
+  .footer_header{
+    font-family: Oswald; 
+    font-weight: Bold;
+    font-size: 24px;
+    color:  #EAEBEC;
+    text-align:center;
+  }
+
+  .about_title {
+    color:#A59678;
+    font-family: Oswald;
+    font-weight: Bold;
+    font-size: 21px;
+  }
+  .about__item {
+   
+    font-weight: Regular;
+    font-size: 16px
+
+    
+  }
+
+  .about__main {
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav_link {
+    color: #fff;
+    text-decoration: none;
+   
   }
