@@ -1,0 +1,154 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+  }
+
+  img {
+    max-width: 100%;
+  }
+  
+  .header {
+    background: #2E323F;
+    padding: 2rem 0;
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+.nav__item {
+    margin: 10px 0 ;
+
+}
+
+.nav {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+  }
+  
+  .nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
+  }
+
+.nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 3rem;
+    height: 3rem;
+    padding: 0em;
+    border-radius: 50%;
+    background: #072a2d;
+    color: white;
+    transition: opacity 250ms ease;
+  
+    position: absolute;
+    left: 0;
+  }
+
+ .nav-toggle:focus,
+.nav-toggle:hover {
+  opacity: 0.75;
+}
+
+
+.hamburger {
+    width: 50%;
+    position: relative;
+  }
+  
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+  }
+  
+  .hamburger::before,
+  .hamburger::after {
+    content: "";
+    width: 100%;
+  }
+  
+  .hamburger::before {
+    transform: translateY(-6px);
+  }
+  
+  .hamburger::after {
+    transform: translateY(3px);
+  }
+  
+  .nav__link--button{
+    background:#A59678;
+    padding: 0.25em 1em;
+    border-radius: 10em;
+   
+  }
+
+  .nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+   }
+  .nav__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .logo {
+    height: 30px;
+  }
+
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family:Oswald;
+    font-weight: 900;
+    background-color: #A59678;
+    padding: 0.75em 2em;
+    border-radius: 100px;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    opacity: 0.75;
+  }
+  
+  .hero{
+    background: #3B4050;
+    padding: 100px 0;
+  }
+
+  .section_two {
+    background:#A59678;
+    padding: 100px 0;
+  }
+
+  .section_three{
+    padding: 100px 0;
+  }
+  .section_four {
+    background: #2E323F;
+    padding: 100px 0;
+  }
+
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
