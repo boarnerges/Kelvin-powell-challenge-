@@ -14,7 +14,7 @@ body {
     max-width: 100%;
   }
   
-  .header {
+.header {
     background: #2E323F;
     padding: 2rem 0;
     font-family: Oswald;
@@ -26,7 +26,10 @@ body {
     margin-top: .75em;
 
 }
-
+section {
+    padding: 0;
+    margin:0;
+}
 .nav {
     visibility: hidden;
     height: 0;
@@ -139,11 +142,22 @@ body {
     background: #3B4050;
     padding: 100px 0;
     color: #fff;
+    margin: 0;
+  }
+
+.hero_flex {
+    margin:0;
   }
 .hero__title{
     font-family: Oswald;
     font-weight:bold;
     font-size: 90px;
+    line-height: 1.1;
+   
+}
+
+h1{
+    margin: 0;
 }
 
 .hero_text {
@@ -299,11 +313,27 @@ body {
     }
     .hero_flex {
         display:flex;
-        /* align-items: center; */
-        /* background: red; */
+        align-items: center; 
+      
         align-items:flex-end;
-
+       
     }
  
   }
+
+  @media (min-width: 1500px) {
+    
+    .side{
+        display:flex;        
+        align-items: flex-end; 
+       
+
+    }
+
+    .sidebar{
+        flex-wrap: wrap;
+        
+    }    
+   
+}
   
